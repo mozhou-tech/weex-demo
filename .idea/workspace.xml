@@ -2,104 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f404f17-8800-4b29-b99b-2ac989625daf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/weex-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.postcssrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android.config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/helper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/hotreload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/vue-loader.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/webpack.common.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/webpack.dev.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/webpack.prod.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/webpack.release.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/webpack.test.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/AppInfoCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/AppInfoCard.web.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/Doodle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/Doodle.web.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/ExampleScroller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/ExampleScroller.web.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/HelloWorld.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/HelloWorld.web.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/Lesson.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/Lesson.web.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/ScreenMask.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/ScreenMask.web.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/index.web.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/pages/about/About.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/pages/about/About.web.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/pages/examples/Examples.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/pages/examples/Examples.web.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/pages/guide/Guide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/pages/guide/Guide.web.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/pages/landing/Landing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/pages/landing/Landing.web.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/pages/login/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/pages/login/Login.web.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/pages/news/News.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/pages/news/News.web.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/pages/webview/Webview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/pages/webview/Webview.web.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/vendor.web.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios.config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/QADB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/chat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/moment.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/sliders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/update.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/wechat.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/platforms/platforms.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/plugins.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AppInfoCard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Doodle.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ExampleScroller.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Lesson.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ScreenMask.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entry.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/about/About.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/about/About.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/examples/Examples.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/examples/Examples.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/guide/Guide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/guide/Guide.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/landing/Landing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/landing/Landing.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/login/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/login/Login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/news/News.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/news/News.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/webview/Webview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/webview/Webview.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/mixin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/mock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/unit/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/unit/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/unit/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/unit/specs/index.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/preview.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/qrcode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/preview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/about/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/about/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/About.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/Login.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -126,9 +34,9 @@
           <entry key="css" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="2" />
-          <entry key="js" value="9" />
+          <entry key="js" value="10" />
           <entry key="json" value="2" />
-          <entry key="vue" value="9" />
+          <entry key="vue" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -136,32 +44,78 @@
           <entry key="CSS" value="1" />
           <entry key="HTML" value="2" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="9" />
+          <entry key="JavaScript" value="10" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Vue.js" value="9" />
+          <entry key="Vue.js" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="21" />
-          <entry key="vue" value="12" />
+          <entry key="gitignore" value="26" />
+          <entry key="txt" value="6" />
+          <entry key="vue" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="21" />
-          <entry key="Vue.js" value="12" />
+          <entry key="PLAIN_TEXT" value="32" />
+          <entry key="Vue.js" value="51" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/about/About.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+            <state>
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/about/About.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1185">
+              <caret line="79" column="36" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
+              <folding>
+                <element signature="e#1019#1055#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/news/News.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="6" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/login/Login.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="n#style#0;n#text#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -182,6 +136,8 @@
         <option value="$PROJECT_DIR$/weex-demo/package.json" />
         <option value="$PROJECT_DIR$/weex-demo/src/pages/examples/Examples.vue" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/pages/about/About.vue" />
+        <option value="$PROJECT_DIR$/src/pages/login/Login.vue" />
       </list>
     </option>
   </component>
@@ -218,6 +174,38 @@
             <path>
               <item name="weex-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="weex-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weex-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weex-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weex-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weex-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weex-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weex-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="about" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weex-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weex-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weex-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weex-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -262,12 +250,20 @@
       <updated>1551142967400</updated>
       <workItem from="1551142969985" duration="2548000" />
       <workItem from="1551157427689" duration="1029000" />
-      <workItem from="1551160046889" duration="556000" />
+      <workItem from="1551160046889" duration="2210000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1551160670881</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551160670881</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4133000" />
+    <option name="totallyTimeSpent" value="5787000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -285,8 +281,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.48265305" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4996986" visible="true" weight="0.48265305" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50030136" side_tool="true" weight="0.48265305" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -297,6 +293,12 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/weex-demo/src/login.vue" />
@@ -322,8 +324,52 @@
     <entry file="file://$PROJECT_DIR$/weex-demo/package.json" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        <state relative-caret-position="30">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/about/About.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/news/News.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/about/About.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="79" column="36" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
+          <folding>
+            <element signature="e#1019#1055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/login/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="n#style#0;n#text#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

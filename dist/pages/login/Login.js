@@ -772,113 +772,7 @@ module.exports = __vue_exports__
 /***/ 57:
 /***/ (function(module, exports) {
 
-module.exports = {
-  "example-list": {
-    "width": "750",
-    "position": "absolute",
-    "top": 0,
-    "bottom": "100",
-    "backgroundColor": "#F5F5F5"
-  },
-  "group-info": {
-    "backgroundColor": "#FFFFFF"
-  },
-  "loading": {
-    "flex": 1,
-    "justifyContent": "center",
-    "alignItems": "center"
-  },
-  "loading-text": {
-    "fontSize": "60",
-    "color": "#BBBBBB"
-  },
-  "group-title": {
-    "width": "750",
-    "paddingTop": "20",
-    "paddingBottom": "35",
-    "fontSize": "40",
-    "textAlign": "center",
-    "color": "#00B4FF",
-    "backgroundImage": "linear-gradient(to bottom, #E3F5FB, #F9FEFF)"
-  },
-  "group-desc": {
-    "fontSize": "28",
-    "color": "#999999",
-    "marginTop": "10",
-    "marginLeft": "30",
-    "marginRight": "40"
-  },
-  "doc-link": {
-    "marginTop": "10",
-    "marginRight": "60",
-    "marginBottom": "20"
-  },
-  "doc-link-text": {
-    "fontSize": "26",
-    "color": "rgba(0,189,255,0.6)",
-    "textAlign": "right"
-  },
-  "section": {
-    "paddingBottom": "30"
-  },
-  "tabbar": {
-    "width": "750",
-    "position": "fixed",
-    "bottom": 0,
-    "height": "100",
-    "flexDirection": "row",
-    "justifyContent": "space-around",
-    "alignItems": "flex-end",
-    "backgroundColor": "#E6E6E6"
-  },
-  "tab-cell": {
-    "width": "186",
-    "height": "100",
-    "borderTopWidth": "2",
-    "borderTopStyle": "solid",
-    "borderTopColor": "#DDDDDD",
-    "justifyContent": "center",
-    "backgroundColor": "#FCFCFC",
-    "transitionProperty": "backgroundColor",
-    "transitionDuration": 200
-  },
-  "@TRANSITION": {
-    "tab-cell": {
-      "property": "backgroundColor",
-      "duration": 200
-    },
-    "tab-name": {
-      "property": "color,fontSize",
-      "duration": 100
-    }
-  },
-  "active-tab-cell": {
-    "borderTopColor": "rgba(0,189,255,0.8)",
-    "backgroundColor": "#BDECFF"
-  },
-  "tab-name": {
-    "textAlign": "center",
-    "color": "#666666",
-    "transitionProperty": "color,fontSize",
-    "transitionDuration": 100
-  },
-  "tab-name-zh": {
-    "fontSize": "36"
-  },
-  "tab-name-en": {
-    "fontSize": "30"
-  },
-  "active-tab-name-zh": {
-    "color": "#00B4FF",
-    "fontSize": "42",
-    "fontWeight": "bold"
-  },
-  "active-tab-name-en": {
-    "color": "#00B4FF",
-    "fontSize": "30",
-    "fontWeight": "bold"
-  }
-}
+module.exports = {}
 
 /***/ }),
 
@@ -902,127 +796,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 // import getExamples from '../../examples'
 // const exampleMap = getExamples({ scope: 'mobile', filterTODO: true })
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -1116,65 +889,22 @@ exports.default = {
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: ["wrapper"]
-  }, [(_vm.examples && _vm.examples.length) ? _c('list', {
-    staticClass: ["example-list"]
-  }, [_vm._l((_vm.currentTab.group), function(exampleGroup) {
-    return [(exampleGroup && exampleGroup.title || exampleGroup.name) ? _c('cell', {
-      key: exampleGroup.type,
-      ref: exampleGroup.type,
-      refInFor: true,
-      staticClass: ["group-info"],
-      appendAsTree: true,
-      attrs: {
-        "append": "tree"
-      }
-    }, [_c('text', {
-      staticClass: ["group-title"]
-    }, [_vm._v(_vm._s(_vm.i18n(exampleGroup.title || exampleGroup.name)))]), (exampleGroup.desc) ? _c('text', {
-      staticClass: ["group-desc"]
-    }, [_vm._v(_vm._s(_vm.i18n(exampleGroup.desc)))]) : _vm._e(), (exampleGroup.desc && exampleGroup.docLink) ? _c('a', {
-      staticClass: ["doc-link"],
-      attrs: {
-        "href": _vm.createURL(_vm.i18n(exampleGroup.docLink))
-      }
-    }, [_c('text', {
-      staticClass: ["doc-link-text"]
-    }, [_vm._v(_vm._s(_vm.i18n(_vm.dict.READ_MORE)) + " >>")])]) : _vm._e()]) : _vm._e(), _c('cell', {
-      key: exampleGroup.type + '-examples',
-      staticClass: ["section"],
-      appendAsTree: true,
-      attrs: {
-        "append": "tree"
-      }
-    }, [_c('example-scroller', {
-      attrs: {
-        "language": _vm.language,
-        "examples": exampleGroup.examples
-      }
-    })], 1)]
-  })], 2) : (_vm.showLoading) ? _c('div', {
-    staticClass: ["loading"]
-  }, [_c('text', {
-    staticClass: ["loading-text"]
-  }, [_vm._v("loading ...")])]) : _vm._e(), (_vm.tabs && _vm.tabs.length) ? _c('div', {
-    staticClass: ["tabbar"]
-  }, _vm._l((_vm.tabs), function(tab) {
-    return _c('div', {
-      key: tab.type,
-      class: ['tab-cell', tab.type === _vm.activeTab ? 'active-tab-cell' : ''],
-      on: {
-        "click": function($event) {
-          _vm.toggleTab(tab.type)
-        }
-      }
-    }, [_c('text', {
-      class: [
-        'tab-name',
-        ("tab-name-" + _vm.language),
-        tab.type === _vm.activeTab ? ("active-tab-name-" + _vm.language) : ''
-      ]
-    }, [_vm._v(_vm._s(_vm.i18n(tab.name)))])])
-  })) : _vm._e()])
+  }, [_c('text', [_vm._v("Event count: " + _vm._s(_vm.count))]), _c('text', {
+    staticStyle: {
+      marginTop: "20px"
+    }
+  }, [_vm._v(_vm._s(_vm.value))]), _c('input', {
+    ref: "input1",
+    staticStyle: {
+      fontSize: "50px",
+      marginTop: "100px",
+      height: "100px",
+      backgroundColor: "lightgray"
+    },
+    on: {
+      "input": _vm.oninput
+    }
+  })])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 

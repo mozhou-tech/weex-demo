@@ -1583,50 +1583,7 @@ module.exports = __vue_exports__
 /* 37 */
 /***/ (function(module, exports) {
 
-module.exports = {
-  "list": {
-    "backgroundColor": "#F5F5F5"
-  },
-  "item": {
-    "paddingTop": "30",
-    "paddingBottom": "30",
-    "paddingLeft": "60",
-    "paddingRight": "40",
-    "borderBottomWidth": "1",
-    "borderBottomStyle": "solid",
-    "borderBottomColor": "#E6E6E6",
-    "backgroundColor": "#FFFFFF",
-    "flexDirection": "row",
-    "justifyContent": "space-between",
-    "alignItems": "center"
-  },
-  "item-1": {
-    "borderTopWidth": "1",
-    "borderTopStyle": "solid",
-    "borderTopColor": "#E6E6E6"
-  },
-  "item-title": {
-    "fontSize": "42",
-    "color": "#606060"
-  },
-  "item-value": {
-    "fontSize": "36",
-    "color": "#999999"
-  },
-  "arrow-icon": {
-    "width": "22",
-    "height": "36"
-  },
-  "copyright": {
-    "marginTop": "50",
-    "paddingBottom": "20"
-  },
-  "copyright-text": {
-    "fontSize": "22",
-    "color": "#A0A0A0",
-    "textAlign": "center"
-  }
-}
+module.exports = {}
 
 /***/ }),
 /* 38 */
@@ -1654,25 +1611,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
 var picker = weex.requireModule('picker'); //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -1765,67 +1703,13 @@ exports.default = {
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('list', {
-    staticClass: ["list"]
-  }, [_c('cell', {
-    appendAsTree: true,
-    attrs: {
-      "append": "tree"
-    }
-  }, [_c('app-info-card')], 1), _vm._l((_vm.aboutApp), function(item, i) {
-    return _c('cell', {
-      key: i,
-      class: ['item-cell', ("item-cell-" + (i+1))],
-      appendAsTree: true,
-      attrs: {
-        "append": "tree"
-      }
-    }, [(item.link) ? _c('a', {
-      class: ['item', ("item-" + (i+1))],
-      attrs: {
-        "href": _vm.createLink('webview', {
-          language: _vm.language,
-          url: _vm.i18n(item.link),
-          title: _vm.i18n(item.title)
-        })
-      }
-    }, [_c('text', {
-      staticClass: ["item-title"]
-    }, [_vm._v(_vm._s(_vm.i18n(item.title)))]), _c('image', {
-      staticClass: ["arrow-icon"],
-      attrs: {
-        "src": "https://gw.alicdn.com/tfs/TB1iL2fkLDH8KJjy1XcXXcpdXXa-32-49.png"
-      }
-    })]) : _vm._e()])
-  }), _c('cell', {
-    staticClass: ["item-cell"],
-    appendAsTree: true,
-    attrs: {
-      "append": "tree"
-    }
-  }, [_c('div', {
-    staticClass: ["item"],
-    on: {
-      "click": _vm.chooseLanguage
-    }
-  }, [_c('text', {
-    staticClass: ["item-title"]
-  }, [_vm._v(_vm._s(_vm.i18n(_vm.dict.LANGUAGE)))]), _c('text', {
-    staticClass: ["item-value"]
-  }, [_vm._v(_vm._s(_vm.languageName))])])]), _vm._m(0)], 2)
+  return _vm._m(0)
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('cell', {
-    appendAsTree: true,
-    attrs: {
-      "append": "tree"
-    }
-  }, [_c('div', {
-    staticClass: ["copyright"]
+  return _c('div', {
+    staticClass: ["wrapper"]
   }, [_c('text', {
-    staticClass: ["copyright-text"]
-  }, [_vm._v("Copyright(c) 2017 The Apache Software Foundation.")]), _c('text', {
-    staticClass: ["copyright-text"]
-  }, [_vm._v("Licensed under the Apache License, Version 2.0")])])])
+    staticClass: ["greeting"]
+  }, [_vm._v("The environment is ready!")])])
 }]}
 module.exports.render._withStripped = true
 
