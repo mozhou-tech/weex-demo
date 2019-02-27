@@ -62,18 +62,18 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 26);
+/******/ 	return __webpack_require__(__webpack_require__.s = 25);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 26:
+/***/ 25:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _ScreenMask = __webpack_require__(27);
+var _ScreenMask = __webpack_require__(26);
 
 var _ScreenMask2 = _interopRequireDefault(_ScreenMask);
 
@@ -84,75 +84,10 @@ new Vue(_ScreenMask2.default);
 
 /***/ }),
 
-/***/ 27:
-/***/ (function(module, exports, __webpack_require__) {
-
-var __vue_exports__, __vue_options__
-var __vue_styles__ = []
-
-/* styles */
-__vue_styles__.push(__webpack_require__(28)
-)
-
-/* template */
-var __vue_template__ = __webpack_require__(29)
-__vue_options__ = __vue_exports__ = __vue_exports__ || {}
-if (
-  typeof __vue_exports__.default === "object" ||
-  typeof __vue_exports__.default === "function"
-) {
-if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
-__vue_options__ = __vue_exports__ = __vue_exports__.default
-}
-if (typeof __vue_options__ === "function") {
-  __vue_options__ = __vue_options__.options
-}
-__vue_options__.__file = "/Users/jerrylau/WebstormProjects/weex-demo/src/components/ScreenMask.vue"
-__vue_options__.render = __vue_template__.render
-__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-832078b0"
-__vue_options__.style = __vue_options__.style || {}
-__vue_styles__.forEach(function (module) {
-  for (var name in module) {
-    __vue_options__.style[name] = module[name]
-  }
-})
-if (typeof __register_static_styles__ === "function") {
-  __register_static_styles__(__vue_options__._scopeId, __vue_styles__)
-}
-
-module.exports = __vue_exports__
-
-
-/***/ }),
-
-/***/ 28:
+/***/ 26:
 /***/ (function(module, exports) {
 
-module.exports = {
-  "mask": {
-    "position": "fixed",
-    "top": 0,
-    "bottom": 0,
-    "left": 0,
-    "right": 0,
-    "alignItems": "center",
-    "justifyContent": "center",
-    "backgroundColor": "rgba(0,0,0,0.3)"
-  }
-}
-
-/***/ }),
-
-/***/ 29:
-/***/ (function(module, exports) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('mask', [_c('div', {
-    staticClass: ["mask"]
-  }, [_vm._t("default")], 2)])
-},staticRenderFns: []}
-module.exports.render._withStripped = true
+throw new Error("Module build failed: Error: ENOENT: no such file or directory, open '/Users/jerrylau/WebstormProjects/awesome-app/src/components/ScreenMask.vue'");
 
 /***/ })
 

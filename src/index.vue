@@ -1,44 +1,46 @@
 <template>
   <div class="wrapper">
-    <image :src="logo" class="logo" />
-    <text class="greeting">The environment is ready!</text>
-    <HelloWorld/>
+    <text class="button" @click="loginPage">请先登录</text>
+    <br>
+    <text class="button" @click="listPage">列表页</text>
+    <br>
+    <text class="button" @click="formPage">发布文章</text>
+    <br>
   </div>
 </template>
 
 <script>
-import HelloWorld from '@/components/HelloWorld'
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  },
-  data () {
-    return {
-      logo: 'https://gw.alicdn.com/tfs/TB1yopEdgoQMeJjy1XaXXcSsFXa-640-302.png'
-    }
-  }
-}
+    var navigator = weex.requireModule('navigator');
+    var modal = weex.requireModule('modal');
+
+    export default {
+        methods: {
+            formPage (event) {
+                navigator.push({url: '/pages/Form.html', animated: "true"})
+            },
+            listPage (event) {
+                navigator.push({url: '/pages/List.html', animated: "true"})
+            },
+            loginPage (event) {
+                navigator.push({url: '/pages/Login.html', animated: "true"})
+            }
+        }
+    };
 </script>
 
 <style scoped>
   .wrapper {
-    justify-content: center;
     align-items: center;
+    justify-content: center;
   }
-  .logo {
-    width: 424px;
-    height: 200px;
-  }
-  .greeting {
+  .button {
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    background-color: #3eaf7c;
+    font-size: 48px;
+    color: #fff;
     text-align: center;
-    margin-top: 70px;
-    font-size: 50px;
-    color: #41B883;
-  }
-  .message {
-    margin: 30px;
-    font-size: 32px;
-    color: #727272;
   }
 </style>
