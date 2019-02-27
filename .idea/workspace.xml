@@ -2,84 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4274cab-ce9a-4d55-8fbd-d909d282e2be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/functions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functions/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/About.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Form.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/List.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/weex-demo.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/webpack.common.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/webpack.common.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/webpack.test.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components/AppInfoCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components/AppInfoCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components/AppInfoCard.web.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components/Doodle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components/Doodle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components/Doodle.web.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components/ExampleScroller.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components/ExampleScroller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components/ExampleScroller.web.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components/HelloWorld.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components/HelloWorld.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components/HelloWorld.web.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components/Lesson.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components/Lesson.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components/Lesson.web.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components/ScreenMask.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components/ScreenMask.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components/ScreenMask.web.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.web.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/about/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/about/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/about/About.web.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/examples/Examples.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/examples/Examples.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/examples/Examples.web.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/guide/Guide.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/guide/Guide.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/guide/Guide.web.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/landing/Landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/landing/Landing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/landing/Landing.web.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/login/Login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/login/Login.web.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/news/News.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/news/News.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/news/News.web.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/webview/Webview.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/webview/Webview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/webview/Webview.web.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/vendor.web.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/misc/QADB.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/misc/chat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/misc/moment.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/misc/sliders.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/misc/update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/misc/update.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/misc/wechat.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Doodle.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExampleScroller.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Lesson.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ScreenMask.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/functions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functions/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/functions/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about/About.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about/About.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/examples/Examples.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/examples/Examples.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/guide/Guide.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/guide/Guide.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/landing/Landing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/landing/Landing.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login/Login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login/Login.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/news/News.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/news/News.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/webview/Webview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/webview/Webview.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/mixin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/mock.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/specs/index.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Form.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Form.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/List.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/List.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -104,7 +36,7 @@
           <entry key="js" value="19" />
           <entry key="json" value="1" />
           <entry key="lock" value="1" />
-          <entry key="vue" value="10" />
+          <entry key="vue" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -112,20 +44,22 @@
           <entry key="HTML" value="1" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="19" />
-          <entry key="Vue.js" value="10" />
+          <entry key="Vue.js" value="11" />
           <entry key="yarn.lock" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="505" />
-          <entry key="vue" value="565" />
+          <entry key="js" value="922" />
+          <entry key="txt" value="6" />
+          <entry key="vue" value="909" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="505" />
-          <entry key="Vue.js" value="565" />
+          <entry key="JavaScript" value="922" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Vue.js" value="909" />
         </counts>
       </usages-collector>
     </session>
@@ -146,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/About.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+            <state relative-caret-position="343">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
             </state>
           </provider>
         </entry>
@@ -155,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/List.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="197" column="5" selection-start-line="197" selection-start-column="5" selection-end-line="197" selection-end-column="5" />
+            <state relative-caret-position="195">
+              <caret line="13" column="73" lean-forward="true" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -164,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/Form.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="62" />
+            <state relative-caret-position="52">
+              <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -173,17 +107,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="240">
+              <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/Login.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="85" column="24" lean-forward="true" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+              <folding>
+                <element signature="e#1151#1189#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/Login.vue">
+        <entry file="file://$PROJECT_DIR$/src/pages/Home.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="69" column="35" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
+            <state relative-caret-position="416">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="36" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -191,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/functions/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="360">
+              <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -206,11 +152,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/functions/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="69" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -220,8 +166,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -241,13 +187,15 @@
       <list>
         <option value="$PROJECT_DIR$/src/pages/about/About.vue" />
         <option value="$PROJECT_DIR$/src/pages/about/About.js" />
+        <option value="$PROJECT_DIR$/configs/config.js" />
+        <option value="$PROJECT_DIR$/src/functions/index.js" />
+        <option value="$PROJECT_DIR$/src/functions/user.js" />
+        <option value="$PROJECT_DIR$/src/pages/Home.vue" />
+        <option value="$PROJECT_DIR$/src/pages/About.vue" />
+        <option value="$PROJECT_DIR$/src/pages/Form.vue" />
         <option value="$PROJECT_DIR$/src/pages/List.vue" />
         <option value="$PROJECT_DIR$/src/index.vue" />
-        <option value="$PROJECT_DIR$/src/pages/Form.vue" />
-        <option value="$PROJECT_DIR$/configs/config.js" />
         <option value="$PROJECT_DIR$/src/pages/Login.vue" />
-        <option value="$PROJECT_DIR$/src/functions/user.js" />
-        <option value="$PROJECT_DIR$/src/functions/index.js" />
       </list>
     </option>
   </component>
@@ -358,12 +306,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551231903221</updated>
-      <workItem from="1551231906076" duration="6385000" />
+      <workItem from="1551231906076" duration="8703000" />
     </task>
+    <task id="LOCAL-00001" summary="login">
+      <created>1551238580701</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551238580701</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6385000" />
+    <option name="totallyTimeSpent" value="8703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="90" y="48" width="1680" height="958" extended-state="0" />
@@ -394,6 +350,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="login" />
+    <option name="LAST_COMMIT_MESSAGE" value="login" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/yarn.lock">
@@ -520,52 +480,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Login.vue">
+    <entry file="file://$PROJECT_DIR$/src/functions/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="69" column="35" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Form.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/List.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="197" column="5" selection-start-line="197" selection-start-column="5" selection-end-line="197" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/About.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functions/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="360">
+          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/functions/index.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/Home.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="69" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
+        <state relative-caret-position="416">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="36" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/About.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Form.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/List.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="73" lean-forward="true" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="85" column="24" lean-forward="true" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+          <folding>
+            <element signature="e#1151#1189#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

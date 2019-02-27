@@ -17,6 +17,8 @@
     const stream = weex.requireModule('stream') || {};
     const modal = weex.requireModule('modal') || {};
     const API = 'https://jsonplaceholder.typicode.com/posts';
+    import {isUserLogined} from "../functions/user";
+    const navigator = weex.requireModule('navigator') || {};
 
     export default {
         data: function () {
@@ -24,6 +26,11 @@
                 title: '',
                 article: '',
                 loading: false
+            }
+        },
+        created: function() {
+            if(!isUserLogined()){
+                navigator.push({url: '/pages/Login.html', animated: "true"})
             }
         },
         methods: {

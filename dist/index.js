@@ -141,16 +141,6 @@ module.exports = {
   "wrapper": {
     "alignItems": "center",
     "justifyContent": "center"
-  },
-  "button": {
-    "width": "400",
-    "paddingTop": "20",
-    "paddingBottom": "20",
-    "borderRadius": "5",
-    "backgroundColor": "#3eaf7c",
-    "fontSize": "48",
-    "color": "#ffffff",
-    "textAlign": "center"
   }
 }
 
@@ -170,34 +160,29 @@ Object.defineProperty(exports, "__esModule", {
 //
 //
 //
-//
-//
-//
-//
-//
 
 var navigator = weex.requireModule('navigator');
-var modal = weex.requireModule('modal');
 
 exports.default = {
-    methods: {
-        formPage: function formPage(event) {
-            navigator.push({ url: '/pages/Form.html', animated: "true" });
-        },
-        listPage: function listPage(event) {
-            navigator.push({ url: '/pages/List.html', animated: "true" });
-        },
-        loginPage: function loginPage(event) {
-            navigator.push({ url: '/pages/Login.html', animated: "true" });
-        }
-    }
+    created: function created() {
+        navigator.push({ url: '/pages/Login.html', animated: "true" });
+    },
+
+    methods: {}
 };
 
 /***/ }),
 /* 12 */
 /***/ (function(module, exports) {
 
-module.exports={render:function(){},staticRenderFns:[]}
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: ["wrapper"]
+  }, [_c('text', [_vm._v("loading...")])])
+}]}
+module.exports.render._withStripped = true
 
 /***/ })
 /******/ ]);

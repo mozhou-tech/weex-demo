@@ -78,6 +78,7 @@
             }
         },
         created () {
+
             try {
                 this.jsfmVersion = getJSFMVersion()
             } catch (e) {

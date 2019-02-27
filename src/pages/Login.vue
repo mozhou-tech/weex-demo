@@ -49,9 +49,11 @@
 
 <script>
     import {httpPost} from "../functions";
+    import {isUserLogined,login} from "../functions/user";
 
     const stream = weex.requireModule('stream') || {};
     const modal = weex.requireModule('modal') || {};
+    const navigator = weex.requireModule('navigator') || {};
     export default {
         data() {
             return {
@@ -63,13 +65,27 @@
             }
         },
         created() {
+            if(isUserLogined()){
+                navigator.push({url: '/pages/Home.html', animated: "true"})
+            }else{
+                console.log("未登录")
+            }
         },
         methods: {
             loginSubmit() {
+                this.loading = true;
+                let self = this;
                 httpPost("/weex-demo/login",JSON.stringify(this.loginForm),function (res) {
-                    console.log(res)
+                    self.loading = false;
+                    console.log(res);
+                    login('login');
+                    modal.toast({
+                        message: '登录成功',
+                        duration: 2
+                    })
                 },res=>{
-                    console.log(res)
+                    self.loading = false;
+                    console.log(res);
                 });
             }
         }
