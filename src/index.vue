@@ -6,10 +6,11 @@
 
 <script>
     var navigator = weex.requireModule('navigator');
+    import {getEntryUrl} from "./functions";
 
     export default {
         created(){
-            navigator.push({url: '/pages/Login.html', animated: "true"})
+            navigator.push({url: getEntryUrl("pages/Login"), animated: "true"})
         },
         methods: {
 

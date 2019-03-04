@@ -1,6 +1,7 @@
 const storage = weex.requireModule('storage') || {};
 const navigator = weex.requireModule('navigator') || {};
 let tempdata = {};
+import {getEntryUrl} from "./index";
 
 /**
  * 判断用户是否登录
@@ -22,10 +23,10 @@ export function isUserLogined (path, body,done = () => {}, fail = () => {}) {
 
 export function login () {
     storage.setItem("login",1);
-    navigator.push({url: '/pages/Home.html', animated: "true"})
+    navigator.push({url: getEntryUrl('pages/Home'), animated: "true"})
 }
 
 export function logout () {
     storage.removeItem('login')
-    navigator.push({url: '/pages/Login.html', animated: "true"})
+    navigator.push({url: getEntryUrl('pages/Login'), animated: "true"})
 }

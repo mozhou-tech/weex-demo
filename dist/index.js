@@ -62,49 +62,26 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 8);
+/******/ 	return __webpack_require__(__webpack_require__.s = 9);
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */,
-/* 1 */,
-/* 2 */,
-/* 3 */,
-/* 4 */,
-/* 5 */,
-/* 6 */,
-/* 7 */,
-/* 8 */
-/***/ (function(module, exports, __webpack_require__) {
+/******/ ({
 
-"use strict";
-
-
-var _index = __webpack_require__(9);
-
-var _index2 = _interopRequireDefault(_index);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-_index2.default.el = '#root';
-new Vue(_index2.default);
-
-/***/ }),
-/* 9 */
+/***/ 10:
 /***/ (function(module, exports, __webpack_require__) {
 
 var __vue_exports__, __vue_options__
 var __vue_styles__ = []
 
 /* styles */
-__vue_styles__.push(__webpack_require__(10)
+__vue_styles__.push(__webpack_require__(11)
 )
 
 /* script */
-__vue_exports__ = __webpack_require__(11)
+__vue_exports__ = __webpack_require__(12)
 
 /* template */
-var __vue_template__ = __webpack_require__(12)
+var __vue_template__ = __webpack_require__(13)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -134,7 +111,8 @@ module.exports = __vue_exports__
 
 
 /***/ }),
-/* 10 */
+
+/***/ 11:
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -145,7 +123,8 @@ module.exports = {
 }
 
 /***/ }),
-/* 11 */
+
+/***/ 12:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -154,6 +133,9 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
+
+var _functions = __webpack_require__(43);
+
 //
 //
 //
@@ -162,17 +144,17 @@ Object.defineProperty(exports, "__esModule", {
 //
 
 var navigator = weex.requireModule('navigator');
-
 exports.default = {
     created: function created() {
-        navigator.push({ url: '/pages/Login.html', animated: "true" });
+        navigator.push({ url: (0, _functions.getEntryUrl)("pages/Login"), animated: "true" });
     },
 
     methods: {}
 };
 
 /***/ }),
-/* 12 */
+
+/***/ 13:
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -184,5 +166,122 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 }]}
 module.exports.render._withStripped = true
 
+/***/ }),
+
+/***/ 43:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.getBaseURL = getBaseURL;
+exports.getEntryUrl = getEntryUrl;
+exports.httpPost = httpPost;
+exports.httpGet = httpGet;
+var stream = weex.requireModule('stream') || {};
+var modal = weex.requireModule('modal') || {};
+
+function getBaseURL() {
+    return "https://www.easy-mock.com/mock/5c75f1b3ce20c029e6dca80a";
+}
+
+function getEntryUrl(name) {
+    var arr = weex.config.bundleUrl.split('/');
+    arr.pop();
+    arr.pop();
+    arr.push('dist/' + name + '.js');
+    console.log(arr.join('/'));
+
+    // console.log(arr)
+    // arr.push("dist/" + name + '.js');
+    // 判断当前的环境，适配web端
+    if (weex.config.env.platform === "Web") {
+        return '/' + name + '.html';
+    } else {
+        var _arr = weex.config.bundleUrl.split('/');
+        _arr.pop();
+        _arr.pop();
+        _arr.push('dist/' + name + '.js');
+        modal.toast({
+            message: _arr.join('/'),
+            duration: 13
+        });
+        return _arr.join('/');
+    }
+}
+
+function httpPost(path, body) {
+    var done = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : function () {};
+    var fail = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : function () {};
+
+    try {
+        stream.fetch({
+            url: getBaseURL() + path,
+            method: 'post',
+            headers: {
+                'Content-Type': 'application/json;charset=utf-8'
+            },
+            type: 'json',
+            body: body
+        }, function (res) {
+            if (res.ok && res.data) {
+                done(res.data);
+            } else {
+                fail(res);
+            }
+        });
+    } catch (err) {
+        console.error(err);
+        fail(err);
+    }
+}
+
+function httpGet(path, body) {
+    var done = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : function () {};
+    var fail = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : function () {};
+
+    try {
+        stream.fetch({
+            url: getBaseURL() + path,
+            method: 'get',
+            headers: {
+                'Content-Type': 'application/json;charset=utf-8'
+            },
+            type: 'json',
+            body: body
+        }, function (res) {
+            if (res.ok && res.data) {
+                done(res.data);
+            } else {
+                fail(res);
+            }
+        });
+    } catch (err) {
+        console.error(err);
+        fail(err);
+    }
+}
+
+/***/ }),
+
+/***/ 9:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _index = __webpack_require__(10);
+
+var _index2 = _interopRequireDefault(_index);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+_index2.default.el = '#root';
+new Vue(_index2.default);
+
 /***/ })
-/******/ ]);
+
+/******/ });

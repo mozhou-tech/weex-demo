@@ -48,7 +48,7 @@
 </style>
 
 <script>
-    import {httpPost} from "../functions";
+    import {httpPost,getEntryUrl} from "../functions";
     import {isUserLogined,login} from "../functions/user";
 
     const stream = weex.requireModule('stream') || {};
@@ -66,7 +66,7 @@
         },
         created() {
             if(isUserLogined()){
-                navigator.push({url: '/pages/Home.html', animated: "true"})
+                navigator.push({url: getEntryUrl('pages/Home'), animated: "true"})
             }else{
                 console.log("未登录")
             }
@@ -78,7 +78,7 @@
                 httpPost("/weex-demo/login",JSON.stringify(this.loginForm),function (res) {
                     self.loading = false;
                     console.log(res);
-                    login('login');
+                    login();
                     modal.toast({
                         message: '登录成功',
                         duration: 2

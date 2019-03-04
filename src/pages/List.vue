@@ -35,6 +35,8 @@
     const modal = weex.requireModule('modal') || {};
     const API = 'https://kitsu.io/api/edge/anime?filter%5Bstatus%5D=current&sort=-userCount&page%5Blimit%5D=20'
     import {isUserLogined} from "../functions/user";
+    import {getEntryUrl} from "../functions";
+
     const navigator = weex.requireModule('navigator') || {};
 
     export default {
@@ -65,7 +67,7 @@
         },
         created: function() {
             if(!isUserLogined()){
-                navigator.push({url: '/pages/Login.html', animated: "true"})
+                navigator.push({url: getEntryUrl('pages/Login'), animated: "true"})
             }
         },
         methods: {

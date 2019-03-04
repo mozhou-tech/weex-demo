@@ -1,17 +1,16 @@
 <template>
     <div class="wrapper">
-       <text>Home Pages</text>
+        <text>Home Pages</text>
         <text @click="logout">退出登录</text>
-
         <br>
         <br>
-        <a href="/pages/Form.html">
+        <div @click="tiandan">
             <text class="button">填单页</text>
-        </a>
+        </div>
         <br>
-        <a href="/pages/List.html">
+        <div @click="liebiao">
             <text class="button">列表页</text>
-        </a>
+        </div>
         <br>
     </div>
 </template>
@@ -20,26 +19,32 @@
     const dom = weex.requireModule('dom') || {};
     const stream = weex.requireModule('stream') || {};
     const modal = weex.requireModule('modal') || {};
-    import {isUserLogined,logout} from "../functions/user";
+    import {isUserLogined, logout} from "../functions/user";
+
     const navigator = weex.requireModule('navigator') || {};
+    import {getEntryUrl} from "../functions";
 
     export default {
-        data () {
-            return {
-
-            }
+        data() {
+            return {}
         },
 
-        created: function() {
-            if(!isUserLogined()){
-                navigator.push({url: '/pages/Login.html', animated: "true"})
+        created: function () {
+            if (!isUserLogined()) {
+                navigator.push({url: getEntryUrl('pages/Login'), animated: "true"})
             }
         },
 
         methods: {
-            logout:function () {
+            logout: function () {
                 logout()
             },
+            tiandan: function () {
+                navigator.push({url: getEntryUrl("pages/Form"), animated: "true"})
+            },
+            liebiao: function () {
+                navigator.push({url: getEntryUrl("pages/List"), animated: "true"})
+            }
         }
     }
 </script>
@@ -53,6 +58,7 @@
         align-items: center;
         justify-content: center;
     }
+
     .button {
         width: 400px;
         padding-top: 20px;
